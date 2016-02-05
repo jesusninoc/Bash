@@ -22,4 +22,3 @@ echo "PID mayor que 5"
 kill -9 $npid
 fi
 done
-
