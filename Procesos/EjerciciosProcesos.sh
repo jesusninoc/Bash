@@ -1,4 +1,3 @@
-#PROCESOS
 #Ayuda
 #http://www.jesusninoc.com/2015/02/03/mostrar-informacion-sobre-procesos-en-linux-y-windows/
 
