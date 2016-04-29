@@ -1,6 +1,8 @@
 #Explica cada apartado
 
+###########
 #Apartado 1
+###########
 
 adb shell ip link
 adb shell ip address
@@ -21,10 +23,12 @@ adb shell netstat -anp
 adb shell netstat -p
 adb shell netstat -a
 
+###########
 #Apartado 2
+###########
 
-sudo fdisk -l
 df -h
+sudo fdisk -l
 sudo blkid
 sudo mkdir mount_name
 sudo mount -t auto -v /dev/sdb1 /mnt/mount_name
