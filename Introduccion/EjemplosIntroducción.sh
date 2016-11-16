@@ -6,7 +6,7 @@ touch $fichero
 #Añadir contenido al fichero creado
 echo "Hola" > $fichero
 
-#Añadir fecha actual al fichero cerado
+#Añadir fecha actual al fichero creado
 fecha=`date +%Y/%m/%d-%H:%M`
 echo $fecha >> $fichero
 
