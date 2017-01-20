@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Crear carpetas para cada asignatura asignado permisos
+#Crear carpetas para cada asignatura asignado permisos (dividido en pasos)
 
 #######
 #PASO 1
