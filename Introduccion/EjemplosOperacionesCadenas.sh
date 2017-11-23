@@ -8,10 +8,10 @@ awk '{print $1,$3;}' fichero
 #Contar el número de líneas
 wc fichero
 
-#Partir una cadena por un cáracter determinado
+#Partir una cadena por un carácter determinado
 echo $ejemplo | cut -d ' ' -f3
 
-#Remplazar un cáracter por otro dentro de una cadena
+#Remplazar un carácter por otro dentro de una cadena
 echo $ejemplo | tr ' ' ':'
 
 #Imprimir las líneas que contengan coincidencias
