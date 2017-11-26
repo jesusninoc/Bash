@@ -1,3 +1,4 @@
+#Ejemplos de varias formas de descomprimir
 
 #- Descomprimir .tgz
 $ tar -xvzf archivo.tgz
