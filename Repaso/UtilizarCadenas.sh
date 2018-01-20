@@ -19,8 +19,8 @@ sort -k -t: /etc/passwd
 #Buscar un usuario concreto
 cat /etc/passwd | grep "usuario"
 
-#Reemplazar el caracter h por el caracter r
+#Reemplazar el carácter h por el carácter r
 echo "hola" | tr 'h' 'r'
 
-#Eliminar un caracter
+#Eliminar un carácter
 echo "hola" | tr -d 'a'
