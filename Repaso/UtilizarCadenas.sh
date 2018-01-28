@@ -22,5 +22,21 @@ cat /etc/passwd | grep "usuario"
 #Reemplazar el carácter h por el carácter r
 echo "hola" | tr 'h' 'r'
 
+#Reemplazar Pepe por Javier
+echo "Hola Pepe" | sed s/Pepe/Javier/g
+
 #Eliminar un carácter
 echo "hola" | tr -d 'a'
+
+#Definir donde se van a definir los parámetros mediante xargs
+ls | xargs -I ARG echo fichero ARG fichero
+
+#Definir donde se van a definir los parámetros
+echo "después" | xargs echo "antes"
+echo "antes" | xargs -i echo {} "después"
+
+#Mostrar los parámetros 1 y 2
+cat fichero.txt | xargs -l bash -c 'echo this is first:$0 second:$1'
+
+#Asignar permisos leyendo desde un fichero el nombre y el permiso en octal
+cat fichero.txt | xargs bash -c 'chmod $0 $1'
