@@ -1,6 +1,6 @@
 # Numerical permissions
-|--|--|--
 |Number|Permission|rwx
+|--|--|--
 |7|read, write and execute|rwx
 |6|read and write|rw-
 |5|read and execute|r-x
