@@ -7,8 +7,8 @@ echo $(echo ..... | wc -w)
 #Numerar líneas de un fichero
 nl /etc/passwd
 
-#Campo 1 de un fichero
-cut -f1 -d:
+#Campo 1 y 2 de un fichero
+cut -f1 -d: /etc/passwd
 
 #Mostrar los usuarios seguidos
 cut -f1 -d: /etc/passwd | xargs
