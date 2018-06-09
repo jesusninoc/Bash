@@ -40,3 +40,16 @@ cat fichero.txt | xargs -l bash -c 'echo this is first:$0 second:$1'
 
 #Asignar permisos leyendo desde un fichero el nombre y el permiso en octal
 cat fichero.txt | xargs bash -c 'chmod $0 $1'
+
+#nl numbers the lines in a file
+nl fork.c
+
+#fold wraps each line of input text to fit a specified line width
+echo "ljalsdjflsjdfljsdsdfj jldjfal adjsdljkjaj d fajd jaj   sjldfljasd asd" | fold -w 15
+#break at spaces
+echo "ljalsdjflsjdfljsdsdfj jldjfal adjsdljkjaj d fajd jaj   sjldfljasd asd" | fold -w 15 -s
+
+#fmt is a formatter for simplifying and optimizing text files
+fmt -w 5 -s fork.c
+#reformat only lines beginning with STRING, reattaching the prefix to reformatted lines
+fmt -w 5 -s fork.c -p " *"
