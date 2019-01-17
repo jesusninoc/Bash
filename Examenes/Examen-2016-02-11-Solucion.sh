@@ -66,3 +66,6 @@ chmod u+x sueldos.sh
 #Paso 3: Añadir al cron para que el script se ejecute cada 5 minutos
 crontab -e
 */5 * * * *  /home/kali/sueldos.sh > log
+
+<img src="https://www.redeszone.net/app/uploads/2017/01/Linux-cron-crontab-a%C3%B1adir-tareas-periodicas.png" alt="contrab">
+
