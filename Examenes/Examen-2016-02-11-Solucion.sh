@@ -1,4 +1,4 @@
-#Programar una tarea cada cinco minutos, la tarea que hay que programas es (crear un log que añada el contenido):
+#Programar una tarea cada cinco minutos, la tarea que hay que programar es (crear un log que añada el contenido):
 
 #1. Crear un fichero con el contenido de todos los procesos (toda la información)
 
